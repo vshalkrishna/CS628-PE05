@@ -1,0 +1,101 @@
+.detail-card { padding: 1.8rem; }
+
+.detail-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 1.2rem;
+  flex-wrap: wrap;
+}
+
+.detail-title {
+  font-size: 1.65rem;
+  font-weight: 700;
+  margin: .35rem 0 .4rem;
+  color: var(--text);
+}
+
+.detail-desc {
+  color: var(--muted);
+  font-size: .95rem;
+  line-height: 1.6;
+}
+
+.detail-actions {
+  display: flex;
+  gap: .6rem;
+  flex-shrink: 0;
+}
+
+/* Meta chips */
+.detail-meta {
+  display: flex;
+  gap: .8rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.5rem;
+}
+
+.meta-chip {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  background: #fff8f4;
+  border: 1px solid #f0ddd0;
+  border-radius: var(--radius);
+  padding: .5rem .9rem;
+}
+
+.meta-chip span { font-size: 1.2rem; }
+.meta-chip small { display: block; font-size: .72rem; color: var(--muted); }
+.meta-chip strong { font-size: .9rem; }
+
+/* Sections */
+.detail-section { margin-bottom: 1.8rem; }
+
+.section-heading {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: .9rem;
+  padding-bottom: .4rem;
+  border-bottom: 2px solid var(--border);
+  color: var(--primary-d);
+}
+
+/* Ingredient list */
+.ingredient-list { list-style: none; display: flex; flex-direction: column; gap: .45rem; }
+
+.ingredient-item {
+  display: flex;
+  align-items: center;
+  gap: .7rem;
+  font-size: .95rem;
+  padding: .4rem .5rem;
+  border-radius: 6px;
+  transition: background .15s;
+}
+.ingredient-item:hover { background: #fdf5ef; }
+
+.ingredient-bullet {
+  width: 8px; height: 8px; border-radius: 50%;
+  background: var(--primary); flex-shrink: 0;
+}
+
+/* Instructions */
+.instructions-text {
+  line-height: 1.8;
+  font-size: .95rem;
+  color: var(--text);
+}
+.instructions-text p { margin-bottom: .5rem; }
+
+.muted-text { color: var(--muted); font-size: .9rem; }
+
+.detail-footer {
+  font-size: .8rem;
+  color: var(--muted);
+  text-align: right;
+  margin-top: 1rem;
+  border-top: 1px solid var(--border);
+  padding-top: .8rem;
+}

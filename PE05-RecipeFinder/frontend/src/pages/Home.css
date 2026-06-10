@@ -1,0 +1,75 @@
+.hero {
+  background: linear-gradient(135deg, #e07b39 0%, #c4622a 60%, #2e7d52 100%);
+  padding: 5rem 1.5rem;
+  text-align: center;
+  color: #fff;
+}
+
+.hero-title {
+  font-size: clamp(2.2rem, 5vw, 3.5rem);
+  font-weight: 800;
+  margin-bottom: .8rem;
+}
+
+.hero-subtitle {
+  font-size: 1.15rem;
+  opacity: .9;
+  max-width: 520px;
+  margin: 0 auto 2rem;
+}
+
+.hero-actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.hero-btn {
+  padding: .75rem 1.8rem;
+  font-size: 1rem;
+}
+
+.btn-outline {
+  border-color: rgba(255,255,255,.8);
+  color: #fff;
+}
+.btn-outline:hover {
+  background: rgba(255,255,255,.2);
+  color: #fff;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-top: 3rem;
+}
+
+.feature-card {
+  padding: 2rem 1.5rem;
+  text-align: center;
+  transition: transform .2s, box-shadow .2s;
+}
+
+.feature-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 28px rgba(0,0,0,.12);
+}
+
+.feature-icon {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.feature-card h3 {
+  font-size: 1.15rem;
+  margin-bottom: .5rem;
+  color: var(--text);
+}
+
+.feature-card p {
+  color: var(--muted);
+  font-size: .93rem;
+  line-height: 1.6;
+}

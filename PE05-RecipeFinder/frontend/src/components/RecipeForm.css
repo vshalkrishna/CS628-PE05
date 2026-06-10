@@ -1,0 +1,24 @@
+.recipe-form { display: flex; flex-direction: column; }
+
+.form-row {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.form-row .form-group { flex: 1; min-width: 140px; }
+.form-row .flex-2 { flex: 2; }
+
+.label-hint {
+  font-weight: 400;
+  font-size: .8rem;
+  color: var(--muted);
+}
+
+.form-footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: .8rem;
+  margin-top: .5rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
+}

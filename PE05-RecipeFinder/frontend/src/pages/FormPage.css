@@ -1,0 +1,12 @@
+.form-page { max-width: 760px; }
+
+.form-page-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+  gap: .8rem;
+}
+
+.form-card { padding: 2rem; }
